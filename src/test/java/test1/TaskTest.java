@@ -34,7 +34,7 @@ public class TaskTest extends BaseTaskTest
         System.out.println(resaultSearch.size());//вывод размерности списка
         resaultSearch.stream().forEach(x-> System.out.println(x));
         //создание потока для вывода из списка элементов списка указывающих на найденное
-    }
+    }//проверка игнора
 
     @Feature("Поиск Гладиолуса")
     @DisplayName("Проверка результатов поиска c помощью PO")
