@@ -35,6 +35,7 @@ public class TaskTest extends BaseTaskTest
         resaultSearch.stream().forEach(x-> System.out.println(x));
         //создание потока для вывода из списка элементов списка указывающих на найденное
     }//проверка игнора
+    //проверка игнора 2
 
     @Feature("Поиск Гладиолуса")
     @DisplayName("Проверка результатов поиска c помощью PO")
